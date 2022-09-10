@@ -1,0 +1,21 @@
+{
+    "name": "h4ck3r31/psalm-issue-filter-plugin",
+    "description": "Allows to filter/skip code issues based on code snippets within PsalmPHP",
+    "type": "psalm-plugin",
+	"license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "H4ck3r31\\PsalmIssueFilterPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oliver Hader",
+            "email": "oliver@typo3.org"
+        }
+    ],
+    "require": {
+		"ext-simplexml": "*",
+        "vimeo/psalm": "dev-master"
+	}
+}
